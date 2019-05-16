@@ -51,18 +51,6 @@ span {
   outline: none;
 }
 
-.checked {
-  background: url(../img/checked.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.not-checked {
-  background: url(../img/not-checked.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .main {
   display: flex;
   justify-content: center;
