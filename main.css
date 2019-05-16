@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+  background-size: 15px 15px;
+  background-position: center center;
+}
+
+.wrapper {
+  width: 300px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #595959;
+}
+
+span {
+  font-family: sans-serif;
+  font-size: 22px;
+  color: #595959;
+}
+
+.task {
+  margin-bottom: 10px;
+}
+
+.taskLabel {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #595959;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.taskCheckbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: none;
+}
+
+.taskCheckbox:hover {
+  cursor: pointer;
+}
+
+.taskCheckbox:focus {
+  outline: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  height: 40px;
+  width: 300px;
+}
+
+
+
+/*# sourceMappingURL=main.css.map*/
